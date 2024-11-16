@@ -3,7 +3,12 @@
 }
 
 .navbar-brand {
+    font-size: 25px;
     font-weight: bold;
+}
+
+.container-fluid {
+    position: relative;
 }
 
 .Syariah {
