@@ -1,0 +1,15 @@
+.body-style {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.Syariah {
+    color: green;
+}
+
+.nav-link:hover{
+    color: black;
+}
