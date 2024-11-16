@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -31,8 +31,18 @@
     <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Hukum Ekonomi <span class="Syariah">Syariah</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"
+          >Hukum Ekonomi <span class="Syariah">Syariah</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -47,11 +57,17 @@
               <a class="nav-link" href="#">Kontak</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Layanan
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Galeri</a></li>
+                <li><a class="dropdown-item" href="galeri.html">Galeri</a></li>
                 <li><a class="dropdown-item" href="#">Matakuliah Arsip</a></li>
                 <li><a class="dropdown-item" href="#">Kembangkan Skill</a></li>
               </ul>
@@ -65,7 +81,11 @@
     <!-- popup pertama kali muncul -->
     <!-- untuk menanyakan nama -->
 
-    <div id="popup_awal" class="z-3 mt-5" style="justify-items: center; display: none;">
+    <div
+      id="popup_awal"
+      class="z-3 mt-5"
+      style="justify-items: center; display: none"
+    >
       <div
         class="d-flex flex-column gap-2 shadow rounded-5 p-3"
         style="width: 14rem"
@@ -87,7 +107,6 @@
             placeholder="saya biasa dipanggil..."
             required
             pattern="[A-Za-z ]+"
-
           />
           <button class="btn btn-warning mt-2" onclick="handleNama()">
             Lanjutkan
@@ -97,7 +116,9 @@
     </div>
     <!-- end popup -->
 
-    <h1 id="welcome_text">Halo... Selamat Datang <span id="nama_hasil"></span>!</h1>
+    <h1 id="welcome_text">
+      Halo... Selamat Datang <span id="nama_hasil"></span>!
+    </h1>
     <!-- SCRIPT -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
