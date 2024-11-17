@@ -1,0 +1,470 @@
+{
+   "kind": "youtube#playlistItemListResponse",
+   "etag": "Bf8Ogpt8ZggIpsICltbAApcG8D4",
+   "items": [
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "4kC63wkQkahnAkXESO8Eq1JVavk",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy41NkI0NEY2RDEwNTU3Q0M2",
+       "snippet": {
+         "publishedAt": "2022-06-03T14:35:25Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "1. Apa itu HTML5? | Belajar HTML5",
+         "description": "Mari kita mulai belajar mengenai HTML5\n\n---\nDokumentasi HTML5\nhttps://html.spec.whatwg.org/\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Coding Gear Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/Q2VqCG13ejA/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/Q2VqCG13ejA/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/Q2VqCG13ejA/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/Q2VqCG13ejA/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/Q2VqCG13ejA/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 0,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "Q2VqCG13ejA"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "Q2VqCG13ejA",
+         "videoPublishedAt": "2022-06-04T05:16:11Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "rEjFD7awVnzE5-wqYUllxWa8G1U",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy4yODlGNEE0NkRGMEEzMEQy",
+       "snippet": {
+         "publishedAt": "2022-06-16T08:31:15Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "2. Semantic HTML5? | Belajar HTML5",
+         "description": "Penjelasan mengenai Semantic HTML5\n\n---\nPenjelasan Elemen HTML5\n- https://html.spec.whatwg.org/multipage/dom.html#content-categories\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element\n\nChrome Screen Reader\n- https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Coding Gear Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/o3m15BWi2HM/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/o3m15BWi2HM/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/o3m15BWi2HM/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/o3m15BWi2HM/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/o3m15BWi2HM/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 1,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "o3m15BWi2HM"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "o3m15BWi2HM",
+         "videoPublishedAt": "2022-06-18T06:00:10Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "7im3QclySLeApeVmcAGaiAJ10mE",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy4wMTcyMDhGQUE4NTIzM0Y5",
+       "snippet": {
+         "publishedAt": "2022-06-28T13:52:01Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "3. Images Elements | Belajar HTML5",
+         "description": "Penjelasan mengenai elemen-element untuk menampilkan gambar di HTML5 beserta atribut dan cara pakainya\n\nCHAPTER:\n00:00   Intro\n01:05   Tag img\n02:31   Atribut img\n08:22   srcset\n15:03   sizes\n17:40   loading\n20:05   figure\n21:45   picture\n\n---\nPenjelasan Elemen HTML5\n- https://html.spec.whatwg.org/multipage/dom.html#content-categories\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/9g1Zz83FXyc/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/9g1Zz83FXyc/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/9g1Zz83FXyc/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/9g1Zz83FXyc/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/9g1Zz83FXyc/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 2,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "9g1Zz83FXyc"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "9g1Zz83FXyc",
+         "videoPublishedAt": "2022-06-29T05:35:28Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "4Z4RyK3yPLAhVu5WKzwUiN_G-pw",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy41MjE1MkI0OTQ2QzJGNzNG",
+       "snippet": {
+         "publishedAt": "2022-07-02T02:04:07Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "4. Audio & Video | Belajar HTML5",
+         "description": "Penjelasan mengenai elemen audio dan video yang bisa kita gunakan di halaman web kita.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nPenjelasan Elemen Audio & Video\n- https://html.spec.whatwg.org/multipage/media.html#the-audio-element\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\n- https://html.spec.whatwg.org/multipage/media.html#the-video-element\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/SQMruNuafHk/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/SQMruNuafHk/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/SQMruNuafHk/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/SQMruNuafHk/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/SQMruNuafHk/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 3,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "SQMruNuafHk"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "SQMruNuafHk",
+         "videoPublishedAt": "2022-07-02T05:30:09Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "uGMaPBifOffOlF4bIY2KN6xFs6Y",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy4wOTA3OTZBNzVEMTUzOTMy",
+       "snippet": {
+         "publishedAt": "2022-07-05T15:24:53Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "5. Canvas | Belajar HTML5",
+         "description": "Penjelasan mengenai elemen canvas yang bisa kita gunakan di halaman web kita.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nPenjelasan Canvas\n- https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\n- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\n- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/gRrM9TBnRYE/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/gRrM9TBnRYE/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/gRrM9TBnRYE/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/gRrM9TBnRYE/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/gRrM9TBnRYE/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 4,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "gRrM9TBnRYE"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "gRrM9TBnRYE",
+         "videoPublishedAt": "2022-07-06T05:21:01Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "OJtozs0G8-ktEVG742DVRZ9kxVI",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy4xMkVGQjNCMUM1N0RFNEUx",
+       "snippet": {
+         "publishedAt": "2022-07-14T11:23:42Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "6. SVG | Belajar HTML5",
+         "description": "Penjelasan mengenai elemen SVG (Scalable Vector Graphics) yang bisa kita gunakan di halaman web kita.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nPenjelasan SVG\n- https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0\n- https://developer.mozilla.org/en-US/docs/Web/SVG\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/qfn67VjdgZE/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/qfn67VjdgZE/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/qfn67VjdgZE/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/qfn67VjdgZE/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/qfn67VjdgZE/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 5,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "qfn67VjdgZE"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "qfn67VjdgZE",
+         "videoPublishedAt": "2022-07-15T05:58:49Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "v-m0a2k8pF354VhHZNvVRBwGe2g",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy41MzJCQjBCNDIyRkJDN0VD",
+       "snippet": {
+         "publishedAt": "2022-07-20T09:50:53Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "7. Form Validation | Belajar HTML5",
+         "description": "Penjelasan mengenai bagaimana caranya melakukan validasi form di halaman web kita.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nForm Validation\n- https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/ZDxGMTO7O3g/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/ZDxGMTO7O3g/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/ZDxGMTO7O3g/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/ZDxGMTO7O3g/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/ZDxGMTO7O3g/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 6,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "ZDxGMTO7O3g"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "ZDxGMTO7O3g",
+         "videoPublishedAt": "2022-07-23T05:28:19Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "jpOWwfLklJ599R06UsFjo5aXreM",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy5DQUNERDQ2NkIzRUQxNTY1",
+       "snippet": {
+         "publishedAt": "2022-07-26T15:19:47Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "8. Web Storage | Belajar HTML5",
+         "description": "Membahas mengenai Web Storage API, yaitu localStorage dan sessionStorage.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nWeb Storage\n- https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API\n- https://html.spec.whatwg.org/dev/webstorage.html\n- https://codepen.io/beaucarnes/pen/KmeRMx\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/T-a7tX0tCuQ/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/T-a7tX0tCuQ/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/T-a7tX0tCuQ/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/T-a7tX0tCuQ/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/T-a7tX0tCuQ/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 7,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "T-a7tX0tCuQ"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "T-a7tX0tCuQ",
+         "videoPublishedAt": "2022-07-28T07:09:09Z"
+       }
+     },
+     {
+       "kind": "youtube#playlistItem",
+       "etag": "e7jOFSGMx8f2x5D4fn0AzkKUy9c",
+       "id": "UExGSU0wNzE4TGpJWC1LNWVlSFJJbW5aaFBVTWhzdzlBNy45NDk1REZENzhEMzU5MDQz",
+       "snippet": {
+         "publishedAt": "2022-08-05T10:34:04Z",
+         "channelId": "UCkXmLjEr95LVtGuIm3l2dPg",
+         "title": "9. Accessibility | Belajar HTML5",
+         "description": "Membahas mengenai Web Accessibility di HTML5.\n\nCHAPTER:\n00:00   Intro\n\n\n---\nAccessibility\n- https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility\n- https://www.w3.org/WAI/standards-guidelines/wcag/\n\n\n---\nIkuti Playlist Belajar HTML5 Dari Awal : \nhttps://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7\n\n---\n🔥 SUPPORT WPU 🔥\n\n👕 Beli Hoodie & T-Shirt di WPU Official Store 👕\nhttps://shopee.co.id/wpustore.id\n\n👾 Gabung Server Discord WPU 👾\nhttps://discord.gg/S4rrXQU\n\n- Donasi Channel WPU (OVO / GoPay / Dana / LinkAja)\nhttps://saweria.co/sandhikagalih\nhttps://karyakarsa.com/sandhikagalih\n\n---\n📢 FOLLOW SOCIAL MEDIA 📢\n- https://www.instagram.com/sandhikagalih\n- tiktok.com/@sandhika.galih\n- https://twitter.com/sandhikagalih\n- https://github.com/sandhikagalih\n\n---\nUNIVERSITAS PASUNDAN BANDUNG\nhttp://www.unpas.ac.id/\nhttp://www.if.unpas.ac.id/\n\nterimakasih dan #janganlupatitikkoma!\n\n@sandhikagalih",
+         "thumbnails": {
+           "default": {
+             "url": "https://i.ytimg.com/vi/ELqsF3rD920/default.jpg",
+             "width": 120,
+             "height": 90
+           },
+           "medium": {
+             "url": "https://i.ytimg.com/vi/ELqsF3rD920/mqdefault.jpg",
+             "width": 320,
+             "height": 180
+           },
+           "high": {
+             "url": "https://i.ytimg.com/vi/ELqsF3rD920/hqdefault.jpg",
+             "width": 480,
+             "height": 360
+           },
+           "standard": {
+             "url": "https://i.ytimg.com/vi/ELqsF3rD920/sddefault.jpg",
+             "width": 640,
+             "height": 480
+           },
+           "maxres": {
+             "url": "https://i.ytimg.com/vi/ELqsF3rD920/maxresdefault.jpg",
+             "width": 1280,
+             "height": 720
+           }
+         },
+         "channelTitle": "Web Programming UNPAS",
+         "playlistId": "PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7",
+         "position": 8,
+         "resourceId": {
+           "kind": "youtube#video",
+           "videoId": "ELqsF3rD920"
+         },
+         "videoOwnerChannelTitle": "Web Programming UNPAS",
+         "videoOwnerChannelId": "UCkXmLjEr95LVtGuIm3l2dPg"
+       },
+       "contentDetails": {
+         "videoId": "ELqsF3rD920",
+         "videoPublishedAt": "2022-08-06T04:55:18Z"
+       }
+     }
+   ],
+   "pageInfo": {
+     "totalResults": 9,
+     "resultsPerPage": 25
+   }
+ }
+ 

@@ -26,3 +26,29 @@ function handleNama() {
 
   window.location.reload();
 }
+
+// fetch json data
+fetch("/data/belajar_html5.json")
+  .then((response) => response.json())
+  .then((data) => {
+    //  let listData = document.getElementById("list_data");
+
+    //  data.forEach((item) => {
+    //    let li = document.createElement("li");
+    //    li.innerHTML = item.nama;
+    //    listData.appendChild(li);
+    //  });
+   //  console.log(data);
+    dt = {
+      playlistId: data.items[0].snippet.playlistId,
+      videoId: data.items[0].contentDetails.videoId,
+      title: data.items[0].snippet.title,
+      thumbnail: data.items[0].snippet.thumbnails.medium.url,
+      description: data.items[0].snippet.description,
+      channelTitle: data.items[0].snippet.channelTitle,
+      publishedAt: data.items[0].snippet.publishedAt,
+      link:
+        "https://www.youtube.com/watch?v=" + data.items[0].contentDetails.videoId + "&list=" + data.items[0].snippet.playlistId,
+    };
+    console.log(dt);
+  });
