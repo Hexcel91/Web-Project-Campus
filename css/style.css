@@ -12,9 +12,13 @@
 }
 
 .Syariah {
-    color: green;
+    color: darkgreen;
 }
 
 .nav-link:hover{
     color: black;
+}
+
+.greeting_text {
+    margin-top: 20px;
 }

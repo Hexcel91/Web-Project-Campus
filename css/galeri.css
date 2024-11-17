@@ -1,189 +1,190 @@
 * {
-    box-sizing: border-box;   
-    font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 input {
-    display: none;
+  display: none;
 }
 
 .container {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-    font-weight: normal;
-    font-size: 35px;
-    position: relative;
-    margin: 40px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
 }
 
 h1::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: green;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: animate 4s linear infinite;
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: darkgreen;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animate 4s linear infinite;
 }
 
 @keyframes animate {
-    0%{
-        width: 100px;
-    }
-    50%{
-        width: 200px;
-    }
-    100%{
-        width: 100px;
-    }
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 450px;
+  }
+  100% {
+    width: 200px;
+  }
 }
 
 .top-content {
-    background-color: rgb(241, 241, 241);
-    width: 90%;
-    margin: 0 auto 20px auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px lightgrey;
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px lightgrey;
 }
 
 h3 {
-    height: 100%;
-    background-color: rgb(228, 228, 228);
-    line-height: 60px;
-    padding: 0 50px;
-    color: white;
+  height: 100%;
+  background-color: rgb(228, 228, 228);
+  line-height: 60px;
+  padding: 0 50px;
+  color: white;
 }
 
 label {
-    display: inline-block;
-    height: 100%;
-    margin: 0 20px;
-    line-height: 60px;
-    font-size: 18px;
-    color: gray;
-    cursor: pointer;
-    transition: color .5s;
+  display: inline-block;
+  height: 100%;
+  margin: 0 20px;
+  line-height: 60px;
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.5s;
 }
 
 label:hover {
-    color: black;
+  color: black;
 }
 
 .photo-gallery {
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
 .pic {
-    position: relative;
-    height: 230px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px lightgray;
-    cursor: pointer;
-    transition: .5s;
+  position: relative;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px lightgray;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .pic img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    transition: .5s;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 .pic::before {
-    content: "GALERI FOTO";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    width: 100%;
-    margin-top: -100px;
-    opacity: 0;
-    transition: .3s;
-    transition-delay: .1s;
-    z-index: 1;
+  content: "GALERI FOTO";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+  z-index: 1;
 }
 
 .pic:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 10px;
-    height: 0;
-    background-color: rgba(0, 0, 0, .4);
-    transition: .3s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
 }
 
 .pic:hover::after {
-    height: 100%;
+  height: 100%;
 }
 
 .pic:hover::before {
-    margin-top: 0;
-    opacity: 1;
+  margin-top: 0;
+  opacity: 1;
 }
 
 #check1:checked ~ .container .photo-gallery .pic {
-    opacity: 1;
-    transform: scale(1);
-    position: relative;
-    transition: .5s;
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+  transition: 0.5s;
 }
 
 #check2:checked ~ .container .photo-gallery .kampus {
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
 }
 
 #check2:checked ~ .container .photo-gallery .liburan,
 #check2:checked ~ .container .photo-gallery .wisuda {
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
 }
 
 #check3:checked ~ .container .photo-gallery .liburan. {
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
 }
 
 #check3:checked ~ .container .photo-gallery .kampus,
 #check3:checked ~ .container .photo-gallery .wisuda {
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
 }
 
 #check4:checked ~ .container .photo-gallery .wisuda. {
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
 }
 
 #check4:checked ~ .container .photo-gallery .kampus,
 #check4:checked ~ .container .photo-gallery .liburan {
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: .0s;
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
 }
