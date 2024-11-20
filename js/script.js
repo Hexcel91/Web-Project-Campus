@@ -1,3 +1,6 @@
+// chat
+
+// nama
 let nama = localStorage.getItem("nama");
 
 if (nama === null) {
