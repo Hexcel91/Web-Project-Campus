@@ -1,24 +1,81 @@
 .body-style {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-brand {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .container-fluid {
-    position: relative;
+  position: relative;
 }
 
 .Syariah {
-    color: darkgreen;
+  color: darkgreen;
 }
 
-.nav-link:hover{
-    color: black;
+.nav-link:hover {
+  color: black;
+}
+.carousel-item card:hover :not(card:hover) {
+  opacity: 0.5;
 }
 
 .greeting_text {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+/* Styling untuk carousel dan card */
+.carousel-inner .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel-inner .col {
+  flex: 0 0 auto;
+  width: 25%; /* 4 kartu per baris */
+  padding: 0.5rem;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 150px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+}
+
+.card-title {
+  font-size: 0.9rem; /* Ukuran font yang lebih kecil untuk judul */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Batasi judul menjadi 2 baris */
+  -webkit-box-orient: vertical;
+}
+
+/* Media queries untuk responsivitas */
+@media (max-width: 767px) {
+  .carousel-inner .col {
+    width: 50%; /* 2 kartu per baris pada layar kecil */
+  }
+
+  .card-img-top {
+    height: 120px; /* Sesuaikan tinggi gambar untuk layar kecil */
+  }
+
+  .card-title {
+    font-size: 0.8rem; /* Ukuran font yang lebih kecil lagi untuk layar kecil */
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-inner .col {
+    width: 50%; /* Tetap 2 kartu per baris pada layar sangat kecil */
+  }
+
+  .card-img-top {
+    height: 100px; /* Sesuaikan tinggi gambar untuk layar sangat kecil */
+  }
 }
