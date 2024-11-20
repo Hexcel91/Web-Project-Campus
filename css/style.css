@@ -1,3 +1,7 @@
+:root {
+  --hijau: darkgreen;
+}
+
 .body-style {
   font-family: "Poppins", sans-serif;
 }
@@ -12,14 +16,41 @@
 }
 
 .Syariah {
-  color: darkgreen;
+  color: var(--hijau);
 }
 
 .nav-link:hover {
   color: black;
 }
-.carousel-item card:hover :not(card:hover) {
-  opacity: 0.5;
+
+/* jumbotron */
+.jumbotron {
+  background-image: url("/img/background.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.jumbotron h1 {
+  /* warna font */
+  color: white;
+}
+.jumbotron p {
+  color: white;
 }
 
 .greeting_text {
@@ -51,7 +82,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* Batasi judul menjadi 2 baris */
+  /* -webkit-line-clamp: 2; Batasi judul menjadi 2 baris */
   -webkit-box-orient: vertical;
 }
 

@@ -2,10 +2,11 @@ let nama = localStorage.getItem("nama");
 
 if (nama === null) {
   document.getElementById("popup_awal").style.display = "block";
-  document.getElementById("welcome_text").style.display = "none";
+  document.getElementById("root").style.display = "none";
+  // document.getElementById("welcome_text").style.display = "none";
   // console.log("Anda belum menginput nama");
 } else {
-  document.getElementById("welcome_text").style.display = "block";
+  // document.getElementById("welcome_text").style.display = "block";
   document.getElementById("nama_hasil").innerHTML = nama;
 }
 
@@ -69,17 +70,16 @@ fetch("/data/belajar_html5.json")
     // Menggunakan data yang tersimpan
     // console.log(storedData);
 
-    let items = storedData.items; // Asumsikan data YouTube disimpan dalam properti 'items'
+    let items = storedData.items; // data YouTube disimpan dalam properti 'items'
 
     // Menentukan jumlah card per slide
     const cardsPerSlide = 4;
 
-    // Kode untuk membuat slides ...
-    // (sisa kode Anda tetap sama)
+    // Kode untuk membuat slides
     for (let i = 0; i < items.length; i += cardsPerSlide) {
       let slideContent = `
         <div class="carousel-item ${i === 0 ? "active" : ""}">
-          <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-2">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-4 g-2">
       `;
 
       // Menambahkan card ke slide
@@ -117,5 +117,3 @@ fetch("/data/belajar_html5.json")
       wrap: true,
     });
   });
-
-// Membuat slides
