@@ -1,11 +1,16 @@
 :root {
   --hijau: darkgreen;
 }
-
-.body-style {
+/* global styles */
+*, body {
   font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
+/* navbar styles */
 .navbar-brand {
   font-size: 25px;
   font-weight: bold;
