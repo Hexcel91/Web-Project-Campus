@@ -1,21 +1,8 @@
-/* :root {
-    --background-color: #f9f9f9; /* Latar belakang utama */
-    --primary-color: #4a90e2; /* Warna utama (biru lembut) */
-    --secondary-color: #50e3c2; /* Warna sekunder (hijau pastel) */
-    --text-color: #333333; /* Warna teks utama */
-    --text-muted: #777777; /* Warna teks yang lebih lembut */
-    --border-color: #e0e0e0; /* Warna border */
-    --container-bg: #ffffff; /* Latar belakang container */
-    --button-bg: #4a90e2; /* Warna tombol */
-    --button-hover: #357abd; /* Warna hover tombol */
-    --shadow-color: rgba(0, 0, 0, 0.1); Warna bayangan
-} */
-
 /* global styles */
 * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -24,38 +11,39 @@ body {
   padding: 0;
   color: white;
   background-color: #1d1d1d;
+  scroll-behavior: smooth;
 }
 
 .btn {
-    padding: 10px 20px;
-    color: #ffffff;
-    background-color: green;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3 ease;
-  }
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+}
 
-  .btn:hover {
-    background-color: darkgreen;
-    color: #ffffff;
-  }
+.btn:hover {
+  background-color: darkgreen;
+  color: #ffffff;
+}
 
 .hero-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: solid var(--border-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px var(--shadow-color);
-  }
-    
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
 /* navbar styles */
 .navbar-brand {
   font-size: 25px;
@@ -76,48 +64,49 @@ body {
 
 /* main section */
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0;
-  }
-  .hero-text {
-    max-width: 50%;
-  }
-  .hero-text h1 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  .hero-text h1 span {
-    color: darkmagenta;
-  }
-  .hero-text p {
-    font-size: 18px;
-    margin: 20px 0;
-  }
-  
-  .stats {
-    margin-top: 20px;
-    display: flex;
-    gap: 50px;
-  }
-  .stats div {
-    font-size: 16px;
-    font-weight: 600;
-  }
-  .stats span {
-    display: block;
-    font-size: 14px;
-    color: #b0b0b0;
-  }
-  
-  .student-image {
-    width: 450px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  }  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero-text h1 span {
+  color: darkmagenta;
+}
+.hero-text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.stats {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.stats div {
+  font-size: small;
+  font-weight: 600;
+}
+.stats span {
+  display: block;
+  font-size: small;
+  color: #b0b0b0;
+}
+
+.student-image {
+  width: 450px;
+  height: auto;
+  border-radius: 30%;
+  filter: drop-shadow(2px 2px 3px black);
+  /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); */
+}
 
 /* jumbotron */
 .jumbotron {

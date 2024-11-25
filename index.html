@@ -109,7 +109,7 @@
       <!-- navbar end -->
       <!-- main start -->
       <main>
-        <section class="hero">
+        <section class="hero overflow-hidden">
           <div class="container hero-content">
             <div class="hero-text">
               <h1>Skills for Life, <span>Knowledge for Success.</span></h1>
@@ -126,7 +126,7 @@
                 <div>31 <span>Anggota</span></div>
               </div>
             </div>
-              <img src="img/mahasiswi.png" alt="Student" class="student-image" />
+              <img src="img/mahasiswi.png" alt="Student" class="student-image user-select-none" draggable="false"/>
           </div>
         </section>
       <!-- main end -->
@@ -138,12 +138,12 @@
         <div class="container">
           <div class="p-5 text-center rounded-3">
             <h1>Selamat Datang <span id="nama_hasil"></span></h1>
-            <p class="col-lg-9 mx-auto fs-5">
+            <!-- <p class="col-lg-9 mx-auto fs-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
               magnam, soluta id sequi ut sint voluptate ipsam delectus dolorem
               ipsum, eaque vero sit dolore natus adipisci nisi perspiciatis unde
               doloribus.
-            </p>
+            </p> -->
             <div class="d-inline-flex gap-2 mb-5">
               <button
                 class="d-inline-flex align-items-center btn btn-primary bg-teal-500 btn-lg px-4 rounded-pill"
@@ -243,7 +243,7 @@
     <!-- section:pop-up -->
     <div
       id="popup_awal"
-      class="z-3 bg-white rounded-2 mt-5"
+      class="z-3 bg-white rounded-2 position-absolute top-50 start-50 translate-middle"
       style="justify-items: center; display: none"
     >
       <div class="d-flex flex-column gap-2 shadow p-3">
@@ -256,7 +256,8 @@
         <div
           class="d-flex flex-column align-items-center justify-content-center"
         >
-          <h3 class="text-center fw-bold">Halo, Siapa Namamu?</h3>
+          <h3 class="text-center fw-bold text-dark">Halo, Siapa Namamu?</h3>
+          <label for="inputNama" class="text-dark">
           <input
             class="form-control mt-3"
             type="text"
@@ -265,6 +266,7 @@
             required
             pattern="[A-Za-z ]+"
           />
+        </label>
           <button class="btn btn-warning mt-2" onclick="handleNama()">
             Lanjutkan
           </button>

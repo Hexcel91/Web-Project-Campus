@@ -60,7 +60,7 @@ h3 {
   background-color: rgb(228, 228, 228);
   line-height: 60px;
   padding: 0 50px;
-  color: white;
+  color: gray;
 }
 
 label {
@@ -100,6 +100,8 @@ label:hover {
   height: 100%;
   border-radius: 10px;
   transition: 0.5s;
+  object-fit: cover;
+  object-position: center;
 }
 
 .pic::before {
