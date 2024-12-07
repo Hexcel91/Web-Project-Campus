@@ -46,7 +46,9 @@
       >
         <div class="container">
           <!-- display mobile start -->
-          <a class="navbar-brand d-sm-none d-block text-success fw-bold" href="/"
+          <a
+            class="navbar-brand d-sm-none d-block text-success fw-bold"
+            href="/"
             ><span class="text-white">HES</span> Class</a
           >
           <!-- display lainnya -->
@@ -114,43 +116,56 @@
       </nav>
       <!-- navbar end -->
       <!-- main start -->
-
-      <div class="hero bg-theme text-black">
-        <div
-          class="container-md d-flex flex-column-reverse flex-md-row justify-content-between align-content-center gap-5 p-3 mx-auto w-75"
-        >
+      <section class="position-relative py-y bg-theme">
+        <div class="d-flex text-black mx-auto align-items-center flex-column">
           <div
-            class="d-flex flex-column gap-3 text-md-start justify-content-center"
+            class="container-lg d-flex flex-column-reverse flex-lg-row justify-content-between align-content-center gap-5 p-3 mx-auto w-75"
           >
-            <h3 class="h3 text-md-start text-center text-white">
-              Skills for Life,
-              <span class="text-success">Knowledge for Success.</span>
-            </h3>
-            <p class="text-md-start text-center text-white">
-              Website ini menggabungkan program e-learning berkualitas dengan
-              fitur unik untuk mengabadikan kenangan perkuliahan. Tidak hanya
-              mendukung pembelajaran yang efektif, platform ini juga menjadi
-              tempat menyimpan dan merayakan pencapaian, menjadikan setiap momen
-              dalam perjalanan pendidikan lebih bermakna.
-            </p>
-            <div class="text-center text-md-start">
-              <button class="btn btn-success">Kontak</button>
-            </div>
             <div
-              class="stats d-flex gap-3 justify-content-center justify-content-md-start text-center"
+              class="d-flex flex-column gap-3 text-lg-start justify-content-center"
             >
-              <div class="text-white">0 <span>Kursus Karir</span></div>
-              <div class="text-white">31 <span>Anggota</span></div>
+              <h3 class="h3 text-md-start text-center text-white">
+                Skills for Life,
+                <span class="text-success">Knowledge for Success.</span>
+              </h3>
+              <p class="text-md-start text-center text-white">
+                Website ini menggabungkan program e-learning berkualitas dengan
+                fitur unik untuk mengabadikan kenangan perkuliahan. Tidak hanya
+                mendukung pembelajaran yang efektif, platform ini juga menjadi
+                tempat menyimpan dan merayakan pencapaian, menjadikan setiap
+                momen dalam perjalanan pendidikan lebih bermakna.
+              </p>
+              <div class="text-center text-md-start">
+                <button class="btn btn-success">Kontak</button>
+              </div>
+              <div
+                class="stats d-flex gap-3 justify-content-center justify-content-md-start text-center"
+              >
+                <div class="text-white">0 <span>Kursus Karir</span></div>
+                <div class="text-white">31 <span>Anggota</span></div>
+              </div>
             </div>
+            <img
+              src="img/mahasiswi.png"
+              alt="Student"
+              class="student-image user-select-none img-fluid"
+              draggable="false"
+            />
           </div>
-          <img
-            src="img/mahasiswi.png"
-            alt="Student"
-            class="student-image user-select-none img-fluid"
-            draggable="false"
-          />
+          <!-- <div class="mx-auto d-flex align-items-center">
+            <img
+              class="position-absolute bottom-0"
+              src="https://wulan-unpas.netlify.app/img/waves-one.png"
+              alt="img"
+            />
+            <img
+              class="position-absolute bottom-0"
+              src="https://wulan-unpas.netlify.app/img/waves-two.png"
+              alt="img"
+            />
+          </div> -->
         </div>
-      </div>
+      </section>
 
       <!-- main end -->
       <!-- section:jumbotron -->
@@ -174,7 +189,7 @@
       <!-- end-section:jumbotron -->
 
       <!-- section: galeri -->
-      <div data-aos="fade-down" class="container text-black mt-5 p-3">
+      <div data-aos="fade-down" id="galeri" class="container text-black mt-5 p-3">
         <h4 class="text-center mb-2">Galeri</h4>
         <hr />
         <div class="d-flex flex-wrap justify-content-center gap-2">
@@ -213,7 +228,7 @@
           <div class="card">
             <img
               data-aos="fade-down"
-              class="flex-sm-grow-item"
+              class="item"
               src="https://placehold.co/500x300"
               alt="img"
             />
@@ -226,7 +241,7 @@
           <h4 class="text-center mb-2">Materi</h4>
           <hr />
           <div
-            class="d-flex flex-wrap flex-row justify-content-center gap-2 text-center"
+            class="d-flex flex-wrap flex-column flex-lg-row justify-content-center gap-2 text-center"
           >
             <div class="bg-white flex-grow-1 flex-shrink-1 card item">
               <div class="card-header">

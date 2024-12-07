@@ -85,12 +85,12 @@ body {
 } */
 
 /* main section */
-.hero {
+/* .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
-}
+} */
 .hero-text {
   max-width: 50%;
 }
@@ -222,6 +222,9 @@ body {
   .card-title {
     font-size: 0.8rem; /* Ukuran font yang lebih kecil lagi untuk layar kecil */
   }
+  #galeri .item {
+    max-width: 13rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -230,6 +233,7 @@ body {
     flex-shrink: 1;
     flex-basis: 25%;
   }
+
   .carousel-inner .col {
     width: 50%; /* Tetap 2 kartu per baris pada layar sangat kecil */
   }
