@@ -3,19 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Hukum Ekonomi Syariah 2022</title>
-    <!-- FAVICON -->
-    <link
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/Favicon.ico" type="image/x-icon" />
+    <!-- <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥳</text></svg>"
-    />
-    <!-- BOOTSTRAPS -->
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
     /> -->
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -39,17 +32,17 @@
     />
   </head>
   <body>
-    <div id="root" class="container-fluid">
+    <div id="root" class="container-fluid bg-white">
       <!-- navbar start -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <!-- display mobile start -->
           <a class="navbar-brand d-sm-none d-block" href="/"
-            ><span class="Syariah">HES</span> Class</a
+            ><span class="text-success">HES</span> Class</a
           >
           <!-- display lainnya -->
           <a class="navbar-brand d-none d-sm-block" href="/"
-            >HUKUM EKONOMI <span class="Syariah">SYARIAH</span></a
+            >HUKUM EKONOMI <span class="text-success">SYARIAH</span></a
           >
           <button
             class="navbar-toggler"
@@ -66,11 +59,11 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarNavDropdown"
           >
-          <!-- display mobile end -->
-           
+            <!-- display mobile end -->
+
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Beranda</a>
+                <a class="nav-link" aria-current="page" href="/">Beranda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tentang Kami</a>
@@ -86,11 +79,11 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Layanan 
+                  Layanan
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a id="1" class="dropdown-item" href="galeri.html"
+                    <a id="1" class="dropdown-item" href="pages/galeri/"
                       >Galeri</a
                     >
                   </li>
@@ -108,42 +101,52 @@
       </nav>
       <!-- navbar end -->
       <!-- main start -->
-      <main>
-        <section class="hero overflow-hidden">
-          <div class="container hero-content">
-            <div class="hero-text">
-              <h1>Skills for Life, <span>Knowledge for Success.</span></h1>
-              <p>
-                Website ini menggabungkan program e-learning berkualitas dengan
-                fitur unik untuk mengabadikan kenangan perkuliahan. Tidak hanya
-                mendukung pembelajaran yang efektif, platform ini juga menjadi
-                tempat menyimpan dan merayakan pencapaian, menjadikan setiap momen
-                dalam perjalanan pendidikan lebih bermakna.
-              </p>
-              <button class="btn btn-contact">Kontak</button>
-              <div class="stats">
-                <div>0 <span>Kursus Karir</span></div>
-                <div>31 <span>Anggota</span></div>
-              </div>
+
+      <div class="hero overflow-hidden bg-white text-black">
+        <div
+          class="container-md d-flex flex-column-reverse flex-md-row justify-content-between align-content-center gap-5 p-3 mx-auto"
+        >
+          <div
+            class="d-flex flex-column gap-3 text-md-start justify-content-center "
+          >
+            <h3 class="h3 text-md-start text-center">
+              Skills for Life,
+              <span class="text-success">Knowledge for Success.</span>
+            </h3>
+            <p class="text-md-start text-center">
+              Website ini menggabungkan program e-learning berkualitas dengan
+              fitur unik untuk mengabadikan kenangan perkuliahan. Tidak hanya
+              mendukung pembelajaran yang efektif, platform ini juga menjadi
+              tempat menyimpan dan merayakan pencapaian, menjadikan setiap momen
+              dalam perjalanan pendidikan lebih bermakna.
+            </p>
+            <div class="text-center text-md-start">
+              <button class="btn btn-success">Kontak</button>
             </div>
-              <img src="img/mahasiswi.png" alt="Student" class="student-image user-select-none" draggable="false"/>
+            <div
+              class="stats d-flex gap-3 justify-content-center justify-content-md-start text-center"
+            >
+              <div>0 <span>Kursus Karir</span></div>
+              <div>31 <span>Anggota</span></div>
+            </div>
           </div>
-        </section>
+          <img
+            src="img/mahasiswi.png"
+            alt="Student"
+            class="student-image user-select-none img-fluid "
+            draggable="false"
+          />
+        </div>
+      </div>
+
       <!-- main end -->
       <!-- section:jumbotron -->
-      <div
+      <!-- <div
         class="my-5 jumbotron d-flex flex-column align-items-center justify-content-center align-content-center"
       >
-        <!-- efek dalam jumbotron namanya parallax -->
         <div class="container">
           <div class="p-5 text-center rounded-3">
             <h1>Selamat Datang <span id="nama_hasil"></span></h1>
-            <!-- <p class="col-lg-9 mx-auto fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              magnam, soluta id sequi ut sint voluptate ipsam delectus dolorem
-              ipsum, eaque vero sit dolore natus adipisci nisi perspiciatis unde
-              doloribus.
-            </p> -->
             <div class="d-inline-flex gap-2 mb-5">
               <button
                 class="d-inline-flex align-items-center btn btn-primary bg-teal-500 btn-lg px-4 rounded-pill"
@@ -154,14 +157,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- end-section:jumbotron -->
 
       <!-- section:Pelatihan -->
-      <!-- Pelatihan HTML5 -->
-      <div class="container mt-5">
-        <h2 class="text-center">Pelatihan</h2>
-        <h5>Web Development</h5>
+      <div class="container mt-5 bg-white text-black">
+        <h4 class="text-center">Pelatihan</h4>
+        <p class="fw-bold lead">Web Development</p>
         <hr />
 
         <div
@@ -190,14 +192,13 @@
           </button>
         </div>
       </div>
-      <!-- end-section : Pelatihan -->
+      <!-- end-section Pelatihan -->
 
       <!-- section: diqus -->
-      <div id="disqus_thread"></div>
-      <!-- end-section -->
+      <div id="disqus_thread" class="container mt-3"></div>
+      <!-- end-section disqus-->
 
       <!-- section:footer -->
-      <!-- footer -->
       <div class="container">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -239,50 +240,43 @@
         </footer>
       </div>
       <!-- end-section footer -->
-    </div>
-    <!-- section:pop-up -->
-    <div
-      id="popup_awal"
-      class="z-3 bg-white rounded-2 position-absolute top-50 start-50 translate-middle"
-      style="justify-items: center; display: none"
-    >
-      <div class="d-flex flex-column gap-2 shadow p-3">
-        <!-- <img
-          src="img/Icons_15.png"
-          class="card-img-top user-select-none"
-          draggable="false"
-          alt="karakter"
-        /> -->
-        <div
-          class="d-flex flex-column align-items-center justify-content-center"
-        >
-          <h3 class="text-center fw-bold text-dark">Halo, Siapa Namamu?</h3>
-          <label for="inputNama" class="text-dark">
-          <input
-            class="form-control mt-3"
-            type="text"
-            id="inputNama"
-            placeholder="saya biasa dipanggil..."
-            required
-            pattern="[A-Za-z ]+"
-          />
-        </label>
-          <button class="btn btn-warning mt-2" onclick="handleNama()">
-            Lanjutkan
-          </button>
+
+      <!-- section:pop-up -->
+      <div
+        id="popup_awal"
+        class="z-3 bg-white rounded-2 position-absolute top-50 start-50 translate-middle"
+        style="justify-items: center; display: none"
+      >
+        <div class="d-flex flex-column gap-2 shadow p-3">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center"
+          >
+            <h3 class="text-center fw-bold text-dark">Halo, Siapa Namamu?</h3>
+            <label for="inputNama" class="text-dark">
+              <input
+                class="form-control mt-3"
+                type="text"
+                id="inputNama"
+                placeholder="saya biasa dipanggil..."
+                required
+                pattern="[A-Za-z ]+"
+              />
+            </label>
+            <button class="btn btn-warning mt-2" onclick="handleNama()">
+              Lanjutkan
+            </button>
+          </div>
         </div>
       </div>
+
+      <!-- end-section -->
     </div>
-    <!-- end-section -->
-
-    <!-- section:pop-up -->
-    <!-- chatango -->
-    <!-- chatango -->
-    <!-- <div id="chat" class=" position-absolute end-0 bottom-0" style="width: 300px; height:auto">
-        
-      </div> -->
-    <!-- end-section -->
-
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <!-- script menambahkan disqus -->
     <script>
       /**
@@ -309,13 +303,7 @@
         >comments powered by Disqus.</a
       ></noscript
     >
-    <!-- SCRIPT -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- script js -->
+    <!-- script local -->
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -14,7 +14,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.btn {
+/* .btn {
   padding: 10px 20px;
   color: #ffffff;
   background-color: green;
@@ -24,7 +24,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3 ease;
-}
+} */
 
 .btn:hover {
   background-color: darkgreen;
@@ -49,10 +49,10 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-
+/* 
 .container-fluid {
   position: relative;
-}
+} */
 
 .Syariah {
   color: green;

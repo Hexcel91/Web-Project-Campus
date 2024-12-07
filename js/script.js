@@ -6,11 +6,8 @@ let nama = localStorage.getItem("nama");
 if (nama === null) {
   document.getElementById("popup_awal").style.display = "block";
   document.getElementById("root").style.display = "none";
-  // document.getElementById("welcome_text").style.display = "none";
-  // console.log("Anda belum menginput nama");
 } else {
-  // document.getElementById("welcome_text").style.display = "block";
-  document.getElementById("nama_hasil").innerHTML = nama;
+  // document.getElementById("nama_hasil").innerHTML = nama;
 }
 
 // ketika mengenter di bagian input nama, nama akan disimpan di local storage, dan halaman akan di refresh
@@ -32,7 +29,7 @@ function handleNama() {
 }
 
 // daftar pelatihan-1
-fetch("/data/belajar_html5.json")
+fetch("/api/belajar_html5.json")
   .then((response) => response.json())
   .then((data) => {
     let pelatihanCarousel = document.getElementById("pelatihan-1");
