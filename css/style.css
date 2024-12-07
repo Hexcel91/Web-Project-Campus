@@ -1,12 +1,25 @@
+:root {
+  --color-theme: #047184;
+  -transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+}
+
 /* global styles */
 * {
-  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   color: white;
@@ -27,7 +40,7 @@ body {
 } */
 
 .btn:hover {
-  background-color: darkgreen;
+  background-color: var(--color-theme);
   color: #ffffff;
 }
 
@@ -55,12 +68,21 @@ body {
 } */
 
 .Syariah {
-  color: green;
+  color: var(--color-theme);
 }
 
-.nav-link:hover {
-  color: black;
+.bg-theme {
+  background-color: var(--color-theme);
 }
+.nav-link {
+  color: white;
+}
+.h-vh {
+  height: 100vh;
+}
+/* .nav-link:hover {
+  color: black;
+} */
 
 /* main section */
 .hero {
@@ -104,8 +126,7 @@ body {
   width: 450px;
   height: auto;
   border-radius: 30%;
-  filter: drop-shadow(2px 2px 3px black);
-  /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); */
+  /* filter: drop-shadow(2px 2px 3px black); */
 }
 
 /* jumbotron */
@@ -184,6 +205,22 @@ body {
   .card-title {
     font-size: 0.8rem; /* Ukuran font yang lebih kecil lagi untuk layar kecil */
   }
+}
+
+.item {
+  cursor: pointer;
+
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition-duration: 500ms;
+  border-radius: 0.25rem;
+  flex-basis: 25%;
+}
+.item:hover {
+  --transform-translate-y: -0.5rem;
+  --transform-scale-x: 1.05;
+  --transform-scale-y: 1.05;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
 @media (max-width: 575px) {
