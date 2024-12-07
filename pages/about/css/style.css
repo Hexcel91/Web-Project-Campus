@@ -1,0 +1,10 @@
+:root {
+  --color-theme: #047184;
+}
+
+.bg-theme {
+  background-color: var(--color-theme);
+}
+.nav-link {
+  color: white;
+}
