@@ -1,6 +1,3 @@
-// chat
-
-// nama
 // let nama = localStorage.getItem("nama");
 
 // if (nama === null) {
@@ -10,7 +7,6 @@
 //   // document.getElementById("nama_hasil").innerHTML = nama;
 // }
 
-// ketika mengenter di bagian input nama, nama akan disimpan di local storage, dan halaman akan di refresh
 // document
 //   .getElementById("inputNama")
 //   .addEventListener("keypress", function (event) {
