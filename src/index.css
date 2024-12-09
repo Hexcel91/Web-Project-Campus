@@ -69,5 +69,19 @@
 }
 
 :root {
-  --color-theme: #047184;
+  --color-theme1: #047184;
+  --color-theme2 : #043184;
+  --color-theme3 : #048457;
+}
+.bg-theme {
+  background-color: var(--color-theme1);
+}
+.bg-biru{
+  background-color: var(--color-theme2);
+}
+.bg-hijau{
+  background-color: var(--color-theme3);
+}
+.text-theme {
+  color: var(--color-theme1);
 }
